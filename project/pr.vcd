@@ -1,0 +1,194 @@
+$date
+	Thu May 18 19:17:23 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module new_test $end
+$var wire 1 ! water_wash $end
+$var wire 1 " soap_wash $end
+$var wire 1 # motor_on $end
+$var wire 1 $ fill_value_on $end
+$var wire 1 % drain_value_on $end
+$var wire 1 & door_lock $end
+$var wire 1 ' done $end
+$var reg 1 ( clk $end
+$var reg 1 ) cycle_timeout $end
+$var reg 1 * detergent_added $end
+$var reg 1 + door_close $end
+$var reg 1 , drained $end
+$var reg 1 - filled $end
+$var reg 1 . reset $end
+$var reg 1 / spin_timeout $end
+$var reg 1 0 start $end
+$scope module machine1 $end
+$var wire 1 ( clk $end
+$var wire 1 ) cycle_timeout $end
+$var wire 1 * detergent_added $end
+$var wire 1 + door_close $end
+$var wire 1 , drained $end
+$var wire 1 - filled $end
+$var wire 1 . reset $end
+$var wire 1 / spin_timeout $end
+$var wire 1 0 start $end
+$var reg 3 1 current_state [2:0] $end
+$var reg 1 ' done $end
+$var reg 1 & door_lock $end
+$var reg 1 % drain_value_on $end
+$var reg 1 $ fill_value_on $end
+$var reg 1 # motor_on $end
+$var reg 3 2 next_state [2:0] $end
+$var reg 1 " soap_wash $end
+$var reg 1 ! water_wash $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 2
+bx 1
+00
+0/
+x.
+0-
+0,
+0+
+0*
+0)
+0(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#10
+0'
+0!
+0"
+0&
+0%
+0$
+0#
+b0 1
+1(
+#15
+1&
+b1 2
+1+
+10
+#20
+0(
+#30
+1$
+b1 1
+1(
+#40
+0(
+#50
+1(
+#60
+1"
+0$
+b10 2
+0(
+1-
+#70
+b10 1
+1(
+#80
+0(
+#90
+1(
+#100
+0(
+#105
+b11 2
+1*
+#110
+1#
+b11 1
+1(
+#120
+0(
+#130
+1(
+#140
+0(
+#150
+1(
+#160
+0#
+b100 2
+0(
+1)
+#170
+1%
+b100 1
+1(
+#180
+0(
+#190
+1(
+#200
+0(
+#210
+1(
+#215
+0%
+b1 2
+1,
+#220
+0(
+#230
+1!
+b11 2
+b1 1
+1(
+#240
+0(
+#250
+b100 2
+b11 1
+1(
+#260
+0(
+#270
+b101 2
+b100 1
+1(
+1/
+#280
+0(
+#290
+1'
+b0 2
+b101 1
+1(
+#300
+0(
+#310
+0'
+0!
+0"
+b1 2
+b0 1
+1(
+#320
+0(
+#330
+1"
+b10 2
+b1 1
+1(
+#340
+0(
+#350
+b11 2
+b10 1
+1(
